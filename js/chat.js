@@ -686,8 +686,8 @@ messages.innerHTML += `
 
 if(imageMode){
 
-    const response = await fetch(
-        "http://localhost:3000/generate-image",
+   const response = await fetch(
+    "/chat",
         {
             method:"POST",
 
