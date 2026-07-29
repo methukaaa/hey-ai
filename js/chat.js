@@ -1394,9 +1394,9 @@ async function generateChatTitle(){
     try{
 
 
-        const response = await fetch(
-            "http://localhost:3000/chat",
-            {
+const response = await fetch(
+    "/chat",
+    {
 
                 method:"POST",
 
