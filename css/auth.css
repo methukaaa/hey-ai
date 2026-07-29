@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+
+    height:100vh;
+
+    background:#000;
+
+    color:white;
+
+    font-family:"Inter",sans-serif;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+
+
+.auth-container{
+
+    width:360px;
+
+    text-align:center;
+
+}
+
+
+h1{
+
+    font-size:32px;
+
+    letter-spacing:-1px;
+
+    margin-bottom:10px;
+
+}
+
+
+
+p{
+
+    color:#777;
+
+    margin-bottom:35px;
+
+}
+
+
+
+form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:14px;
+
+}
+
+
+
+input{
+
+    background:#111;
+
+    border:1px solid #222;
+
+    border-radius:14px;
+
+    padding:16px;
+
+    color:white;
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+
+
+input:focus{
+
+    border-color:#555;
+
+}
+
+
+
+button{
+
+    margin-top:10px;
+
+    padding:16px;
+
+    border-radius:14px;
+
+    border:none;
+
+    background:white;
+
+    color:black;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+}
+
+
+
+button:hover{
+
+    opacity:.85;
+
+}
+
+
+
+.switch{
+
+    margin-top:30px;
+
+    color:#777;
+
+}
+
+
+
+a{
+
+    color:white;
+
+    text-decoration:none;
+
+}
+
+
+
+a:hover{
+
+    text-decoration:underline;
+
+}
+
+.brand-logo{
+
+    position:absolute;
+
+    top:30px;
+
+    left:35px;
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:white;
+
+    letter-spacing:-1.5px;
+
+    font-family:"Inter", sans-serif;
+
+}
