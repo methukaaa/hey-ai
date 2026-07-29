@@ -687,7 +687,7 @@ messages.innerHTML += `
 if(imageMode){
 
    const response = await fetch(
-    "/chat",
+    "https://hey-ai-production.up.railway.app/generate-image",
         {
             method:"POST",
 
@@ -797,7 +797,7 @@ if(modelBtn){
 }
 
 
-        const response = await fetch("/chat",{
+        const response = await fetch("https://hey-ai-production.up.railway.app/chat",{
 
 
             method:"POST",
@@ -1394,9 +1394,9 @@ async function generateChatTitle(){
     try{
 
 
-const response = await fetch(
-    "/chat",
-    {
+        const response = await fetch(
+            "https://hey-ai-production.up.railway.app/chat",
+            {
 
                 method:"POST",
 

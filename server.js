@@ -5,6 +5,11 @@ import Groq from "groq-sdk";
 import OpenAI from "openai";
 import { GoogleGenAI } from "@google/genai";
 import {GoogleGenerativeAI} from "@google/generative-ai";
+import cors from "cors";
+
+app.use(cors({
+    origin: "*"
+}));
 
 dotenv.config();
 
