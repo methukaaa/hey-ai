@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "thesocialhub-dc45d"
-  }
+    "heyai": "hey-ai-1411",
+    "default": "hey-ai-1411"
+  },
+  "targets": {},
+  "etags": {}
 }
